@@ -36,7 +36,7 @@ for i in range(3):
         else:
             print "Please check your account or password."
     else:
-        print "Account or password can't be blank."
+        print "Account or password can't be blank"
 
 
             
