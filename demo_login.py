@@ -6,9 +6,9 @@ from pymysql import MySQLError
   
 # 数据库连接配置  
 DB_CONFIG = {  
-    'host': '192.168.88.20',  
+    'host': '$IP',  
     'user': 'root', 
-    'password': 'Abcd@1234', 
+    'password': '$PASS', 
     'database': 'testdb', 
     'charset': 'utf8mb4',  
     'cursorclass': pymysql.cursors.DictCursor  
